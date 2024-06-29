@@ -32,10 +32,10 @@
 	<string name="incremental_update_base">incremental_update_%s.json</string>
 
 	<!-- Whether device supports A/B performance flashing -->
-	<item name="support_ab_perf_mode" type="bool">false</item>
+	<item name="support_ab_perf_mode" type="bool">true</item>
 
 	<!-- Whether to use incremental updates by default -->
-	<item name="use_incremental_updates" type="bool">false</item>
+	<item name="use_incremental_updates" type="bool">true</item>
 
 	<!-- Applies to A-only devices only, should be overlayed from DT -->
 	<item name="use_twrp" type="bool">false</item>
