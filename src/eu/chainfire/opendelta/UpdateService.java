@@ -1173,7 +1173,7 @@ public class UpdateService extends Service implements OnSharedPreferenceChangeLi
 
                 Logger.d("flashUpdate - reboot to recovery");
                 ((PowerManager) getSystemService(Context.POWER_SERVICE))
-                        .rebootCustom(PowerManager.REBOOT_RECOVERY);
+                        .advancedReboot(PowerManager.REBOOT_RECOVERY);
             } else {
                 // AOSP recovery and derivatives
                 // First copy the file to cache
