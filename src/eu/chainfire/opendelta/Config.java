@@ -263,7 +263,7 @@ public class Config {
     }
 
     public boolean isIncrementalUpdatesEnabled() {
-        return prefs.getBoolean(PREF_INCREMENTAL_UPDATES, false);
+        return prefs.getBoolean(PREF_INCREMENTAL_UPDATES, true);
     }
 
     public void setIncrementalUpdatesEnabled(boolean enable) {
